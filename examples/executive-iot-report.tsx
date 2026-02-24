@@ -1,4 +1,4 @@
-/** @jsxImportSource @reportflow/core */
+/** @jsxImportSource @angel-vlqz/reportflow-core */
 import {
   Badge,
   Card,
@@ -18,7 +18,7 @@ import {
   ThemeProvider,
   Watermark,
   createElement
-} from "@reportflow/core";
+} from "@angel-vlqz/reportflow-core";
 
 const React = { createElement, Fragment: "Fragment" };
 

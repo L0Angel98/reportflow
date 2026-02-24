@@ -1,4 +1,4 @@
-/** @jsxImportSource @reportflow/core */
+/** @jsxImportSource @angel-vlqz/reportflow-core */
 import {
   Col,
   createElement,
@@ -10,7 +10,7 @@ import {
   Stack,
   Table,
   Text
-} from "@reportflow/core";
+} from "@angel-vlqz/reportflow-core";
 
 const React = { createElement, Fragment: "Fragment" };
 

@@ -5,7 +5,7 @@
     "moduleResolution": "NodeNext",
     "strict": true,
     "jsx": "react-jsx",
-    "jsxImportSource": "@reportflow/core",
+    "jsxImportSource": "@angel-vlqz/reportflow-core",
     "skipLibCheck": true,
     "forceConsistentCasingInFileNames": true,
     "declaration": true,

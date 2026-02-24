@@ -9,7 +9,7 @@ importers:
   .:
     dependencies:
       '@angel-vlqz/reportflow-core':
-        specifier: workspace:*
+        specifier: file:packages/core
         version: link:packages/core
     devDependencies:
       '@eslint/js':

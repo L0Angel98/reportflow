@@ -1,4 +1,4 @@
-/** @jsxImportSource @reportflow/core */
+/** @jsxImportSource @angel-vlqz/reportflow-core */
 import {
   Badge,
   Card,
@@ -18,8 +18,8 @@ import {
   Watermark,
   createElement,
   type ThemeTokens
-} from "@reportflow/core";
-
+} from "@angel-vlqz/reportflow-core";
+ 
 const React = { createElement, Fragment: "Fragment" };
 
 type ThemePreset = "teal" | "blue" | "green" | "purple";
