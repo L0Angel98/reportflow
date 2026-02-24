@@ -1,0 +1,42 @@
+{
+  "name": "@reportflow/cli",
+  "version": "0.1.0",
+  "description": "CLI for rendering enterprise PDF reports from declarative ReportFlow templates.",
+  "keywords": [
+    "pdf",
+    "reporting",
+    "b2b",
+    "typescript",
+    "node",
+    "cli",
+    "business-reports"
+  ],
+  "license": "MIT",
+  "author": "Luis Ángel Velázquez Palomino",
+  "type": "module",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "bin": {
+    "reportflow": "./dist/index.js"
+  },
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "lint": "eslint src --ext .ts",
+    "test": "vitest run --passWithNoTests"
+  },
+  "dependencies": {
+    "@reportflow/core": "workspace:*",
+    "tsx": "^4.19.3"
+  }
+}

@@ -1,0 +1,1481 @@
+{
+  "company": "NovaGrid Systems",
+  "reportTitle": "Reporte Ejecutivo IoT",
+  "generatedAt": "2026-02-23 20:30",
+  "period": "Febrero 2026",
+  "plant": "Planta Norte",
+  "logo": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mP8/x8AAwMCAO6pN6kAAAAASUVORK5CYII=",
+  "kpis": [
+    {
+      "label": "Disponibilidad",
+      "value": "99.32%",
+      "delta": "+0.8%",
+      "status": "success"
+    },
+    {
+      "label": "MTTR",
+      "value": "36 min",
+      "delta": "-4 min",
+      "status": "success"
+    },
+    {
+      "label": "Alertas criticas",
+      "value": "5",
+      "delta": "-2",
+      "status": "success"
+    },
+    {
+      "label": "Energia especifica",
+      "value": "1.28 kWh/u",
+      "delta": "+0.06",
+      "status": "warning"
+    }
+  ],
+  "trend": {
+    "labels": ["S1", "S2", "S3", "S4", "S5", "S6", "S7", "S8"],
+    "values": [82, 88, 91, 87, 95, 99, 101, 106]
+  },
+  "readings": [
+    {
+      "timestamp": "2026-02-20 00:07",
+      "sensor": "NODE-2",
+      "value": "18.91",
+      "status": "OK"
+    },
+    {
+      "timestamp": "2026-02-20 00:14",
+      "sensor": "NODE-3",
+      "value": "19.82",
+      "status": "OK"
+    },
+    {
+      "timestamp": "2026-02-20 00:21",
+      "sensor": "NODE-4",
+      "value": "20.73",
+      "status": "OK"
+    },
+    {
+      "timestamp": "2026-02-20 00:28",
+      "sensor": "NODE-5",
+      "value": "21.64",
+      "status": "OK"
+    },
+    {
+      "timestamp": "2026-02-20 00:35",
+      "sensor": "NODE-6",
+      "value": "22.55",
+      "status": "OK"
+    },
+    {
+      "timestamp": "2026-02-20 00:42",
+      "sensor": "NODE-7",
+      "value": "23.46",
+      "status": "OK"
+    },
+    {
+      "timestamp": "2026-02-20 00:49",
+      "sensor": "NODE-8",
+      "value": "24.37",
+      "status": "OK"
+    },
+    {
+      "timestamp": "2026-02-20 00:56",
+      "sensor": "NODE-9",
+      "value": "25.28",
+      "status": "ATENCION"
+    },
+    {
+      "timestamp": "2026-02-20 01:03",
+      "sensor": "NODE-10",
+      "value": "26.19",
+      "status": "OK"
+    },
+    {
+      "timestamp": "2026-02-20 01:10",
+      "sensor": "NODE-11",
+      "value": "27.10",
+      "status": "OK"
+    },
+    {
+      "timestamp": "2026-02-20 01:17",
+      "sensor": "NODE-12",
+      "value": "28.01",
+      "status": "OK"
+    },
+    {
+      "timestamp": "2026-02-20 01:24",
+      "sensor": "NODE-13",
+      "value": "28.92",
+      "status": "OK"
+    },
+    {
+      "timestamp": "2026-02-20 01:31",
+      "sensor": "NODE-14",
+      "value": "29.83",
+      "status": "OK"
+    },
+    {
+      "timestamp": "2026-02-20 01:38",
+      "sensor": "NODE-15",
+      "value": "30.74",
+      "status": "OK"
+    },
+    {
+      "timestamp": "2026-02-20 01:45",
+      "sensor": "NODE-16",
+      "value": "31.65",
+      "status": "OK"
+    },
+    {
+      "timestamp": "2026-02-20 01:52",
+      "sensor": "NODE-17",
+      "value": "32.56",
+      "status": "ATENCION"
+    },
+    {
+      "timestamp": "2026-02-20 01:59",
+      "sensor": "NODE-18",
+      "value": "18.00",
+      "status": "OK"
+    },
+    {
+      "timestamp": "2026-02-20 02:06",
+      "sensor": "NODE-19",
+      "value": "18.91",
+      "status": "OK"
+    },
+    {
+      "timestamp": "2026-02-20 02:13",
+      "sensor": "NODE-20",
+      "value": "19.82",
+      "status": "OK"
+    },
+    {
+      "timestamp": "2026-02-20 02:20",
+      "sensor": "NODE-21",
+      "value": "20.73",
+      "status": "OK"
+    },
+    {
+      "timestamp": "2026-02-20 02:27",
+      "sensor": "NODE-22",
+      "value": "21.64",
+      "status": "ALERTA"
+    },
+    {
+      "timestamp": "2026-02-20 02:34",
+      "sensor": "NODE-23",
+      "value": "22.55",
+      "status": "OK"
+    },
+    {
+      "timestamp": "2026-02-20 02:41",
+      "sensor": "NODE-24",
+      "value": "23.46",
+      "status": "OK"
+    },
+    {
+      "timestamp": "2026-02-20 02:48",
+      "sensor": "NODE-25",
+      "value": "24.37",
+      "status": "ATENCION"
+    },
+    {
+      "timestamp": "2026-02-20 02:55",
+      "sensor": "NODE-26",
+      "value": "25.28",
+      "status": "OK"
+    },
+    {
+      "timestamp": "2026-02-20 03:02",
+      "sensor": "NODE-27",
+      "value": "26.19",
+      "status": "OK"
+    },
+    {
+      "timestamp": "2026-02-20 03:09",
+      "sensor": "NODE-28",
+      "value": "27.10",
+      "status": "OK"
+    },
+    {
+      "timestamp": "2026-02-20 03:16",
+      "sensor": "NODE-29",
+      "value": "28.01",
+      "status": "OK"
+    },
+    {
+      "timestamp": "2026-02-20 03:23",
+      "sensor": "NODE-30",
+      "value": "28.92",
+      "status": "OK"
+    },
+    {
+      "timestamp": "2026-02-20 03:30",
+      "sensor": "NODE-31",
+      "value": "29.83",
+      "status": "OK"
+    },
+    {
+      "timestamp": "2026-02-20 03:37",
+      "sensor": "NODE-32",
+      "value": "30.74",
+      "status": "OK"
+    },
+    {
+      "timestamp": "2026-02-20 03:44",
+      "sensor": "NODE-33",
+      "value": "31.65",
+      "status": "ATENCION"
+    },
+    {
+      "timestamp": "2026-02-20 03:51",
+      "sensor": "NODE-34",
+      "value": "32.56",
+      "status": "OK"
+    },
+    {
+      "timestamp": "2026-02-20 03:58",
+      "sensor": "NODE-1",
+      "value": "18.00",
+      "status": "OK"
+    },
+    {
+      "timestamp": "2026-02-20 04:05",
+      "sensor": "NODE-2",
+      "value": "18.91",
+      "status": "OK"
+    },
+    {
+      "timestamp": "2026-02-20 04:12",
+      "sensor": "NODE-3",
+      "value": "19.82",
+      "status": "OK"
+    },
+    {
+      "timestamp": "2026-02-20 04:19",
+      "sensor": "NODE-4",
+      "value": "20.73",
+      "status": "OK"
+    },
+    {
+      "timestamp": "2026-02-20 04:26",
+      "sensor": "NODE-5",
+      "value": "21.64",
+      "status": "OK"
+    },
+    {
+      "timestamp": "2026-02-20 04:33",
+      "sensor": "NODE-6",
+      "value": "22.55",
+      "status": "OK"
+    },
+    {
+      "timestamp": "2026-02-20 04:40",
+      "sensor": "NODE-7",
+      "value": "23.46",
+      "status": "ATENCION"
+    },
+    {
+      "timestamp": "2026-02-20 04:47",
+      "sensor": "NODE-8",
+      "value": "24.37",
+      "status": "OK"
+    },
+    {
+      "timestamp": "2026-02-20 04:54",
+      "sensor": "NODE-9",
+      "value": "25.28",
+      "status": "ALERTA"
+    },
+    {
+      "timestamp": "2026-02-20 05:01",
+      "sensor": "NODE-10",
+      "value": "26.19",
+      "status": "OK"
+    },
+    {
+      "timestamp": "2026-02-20 05:08",
+      "sensor": "NODE-11",
+      "value": "27.10",
+      "status": "OK"
+    },
+    {
+      "timestamp": "2026-02-20 05:15",
+      "sensor": "NODE-12",
+      "value": "28.01",
+      "status": "OK"
+    },
+    {
+      "timestamp": "2026-02-20 05:22",
+      "sensor": "NODE-13",
+      "value": "28.92",
+      "status": "OK"
+    },
+    {
+      "timestamp": "2026-02-20 05:29",
+      "sensor": "NODE-14",
+      "value": "29.83",
+      "status": "OK"
+    },
+    {
+      "timestamp": "2026-02-20 05:36",
+      "sensor": "NODE-15",
+      "value": "30.74",
+      "status": "ATENCION"
+    },
+    {
+      "timestamp": "2026-02-20 05:43",
+      "sensor": "NODE-16",
+      "value": "31.65",
+      "status": "OK"
+    },
+    {
+      "timestamp": "2026-02-20 05:50",
+      "sensor": "NODE-17",
+      "value": "32.56",
+      "status": "OK"
+    },
+    {
+      "timestamp": "2026-02-20 05:57",
+      "sensor": "NODE-18",
+      "value": "18.00",
+      "status": "OK"
+    },
+    {
+      "timestamp": "2026-02-20 06:04",
+      "sensor": "NODE-19",
+      "value": "18.91",
+      "status": "OK"
+    },
+    {
+      "timestamp": "2026-02-20 06:11",
+      "sensor": "NODE-20",
+      "value": "19.82",
+      "status": "OK"
+    },
+    {
+      "timestamp": "2026-02-20 06:18",
+      "sensor": "NODE-21",
+      "value": "20.73",
+      "status": "OK"
+    },
+    {
+      "timestamp": "2026-02-20 06:25",
+      "sensor": "NODE-22",
+      "value": "21.64",
+      "status": "OK"
+    },
+    {
+      "timestamp": "2026-02-20 06:32",
+      "sensor": "NODE-23",
+      "value": "22.55",
+      "status": "ATENCION"
+    },
+    {
+      "timestamp": "2026-02-20 06:39",
+      "sensor": "NODE-24",
+      "value": "23.46",
+      "status": "OK"
+    },
+    {
+      "timestamp": "2026-02-20 06:46",
+      "sensor": "NODE-25",
+      "value": "24.37",
+      "status": "OK"
+    },
+    {
+      "timestamp": "2026-02-20 06:53",
+      "sensor": "NODE-26",
+      "value": "25.28",
+      "status": "OK"
+    },
+    {
+      "timestamp": "2026-02-20 07:00",
+      "sensor": "NODE-27",
+      "value": "26.19",
+      "status": "OK"
+    },
+    {
+      "timestamp": "2026-02-20 07:07",
+      "sensor": "NODE-28",
+      "value": "27.10",
+      "status": "OK"
+    },
+    {
+      "timestamp": "2026-02-20 07:14",
+      "sensor": "NODE-29",
+      "value": "28.01",
+      "status": "OK"
+    },
+    {
+      "timestamp": "2026-02-20 07:21",
+      "sensor": "NODE-30",
+      "value": "28.92",
+      "status": "ALERTA"
+    },
+    {
+      "timestamp": "2026-02-20 07:28",
+      "sensor": "NODE-31",
+      "value": "29.83",
+      "status": "ATENCION"
+    },
+    {
+      "timestamp": "2026-02-20 07:35",
+      "sensor": "NODE-32",
+      "value": "30.74",
+      "status": "OK"
+    },
+    {
+      "timestamp": "2026-02-20 07:42",
+      "sensor": "NODE-33",
+      "value": "31.65",
+      "status": "OK"
+    },
+    {
+      "timestamp": "2026-02-20 07:49",
+      "sensor": "NODE-34",
+      "value": "32.56",
+      "status": "OK"
+    },
+    {
+      "timestamp": "2026-02-20 07:56",
+      "sensor": "NODE-1",
+      "value": "18.00",
+      "status": "OK"
+    },
+    {
+      "timestamp": "2026-02-20 08:03",
+      "sensor": "NODE-2",
+      "value": "18.91",
+      "status": "OK"
+    },
+    {
+      "timestamp": "2026-02-20 08:10",
+      "sensor": "NODE-3",
+      "value": "19.82",
+      "status": "OK"
+    },
+    {
+      "timestamp": "2026-02-20 08:17",
+      "sensor": "NODE-4",
+      "value": "20.73",
+      "status": "OK"
+    },
+    {
+      "timestamp": "2026-02-20 08:24",
+      "sensor": "NODE-5",
+      "value": "21.64",
+      "status": "ATENCION"
+    },
+    {
+      "timestamp": "2026-02-20 08:31",
+      "sensor": "NODE-6",
+      "value": "22.55",
+      "status": "OK"
+    },
+    {
+      "timestamp": "2026-02-20 08:38",
+      "sensor": "NODE-7",
+      "value": "23.46",
+      "status": "OK"
+    },
+    {
+      "timestamp": "2026-02-20 08:45",
+      "sensor": "NODE-8",
+      "value": "24.37",
+      "status": "OK"
+    },
+    {
+      "timestamp": "2026-02-20 08:52",
+      "sensor": "NODE-9",
+      "value": "25.28",
+      "status": "OK"
+    },
+    {
+      "timestamp": "2026-02-20 08:59",
+      "sensor": "NODE-10",
+      "value": "26.19",
+      "status": "OK"
+    },
+    {
+      "timestamp": "2026-02-20 09:06",
+      "sensor": "NODE-11",
+      "value": "27.10",
+      "status": "OK"
+    },
+    {
+      "timestamp": "2026-02-20 09:13",
+      "sensor": "NODE-12",
+      "value": "28.01",
+      "status": "OK"
+    },
+    {
+      "timestamp": "2026-02-20 09:20",
+      "sensor": "NODE-13",
+      "value": "28.92",
+      "status": "ATENCION"
+    },
+    {
+      "timestamp": "2026-02-20 09:27",
+      "sensor": "NODE-14",
+      "value": "29.83",
+      "status": "OK"
+    },
+    {
+      "timestamp": "2026-02-20 09:34",
+      "sensor": "NODE-15",
+      "value": "30.74",
+      "status": "OK"
+    },
+    {
+      "timestamp": "2026-02-20 09:41",
+      "sensor": "NODE-16",
+      "value": "31.65",
+      "status": "OK"
+    },
+    {
+      "timestamp": "2026-02-20 09:48",
+      "sensor": "NODE-17",
+      "value": "32.56",
+      "status": "ALERTA"
+    },
+    {
+      "timestamp": "2026-02-20 09:55",
+      "sensor": "NODE-18",
+      "value": "18.00",
+      "status": "OK"
+    },
+    {
+      "timestamp": "2026-02-20 10:02",
+      "sensor": "NODE-19",
+      "value": "18.91",
+      "status": "OK"
+    },
+    {
+      "timestamp": "2026-02-20 10:09",
+      "sensor": "NODE-20",
+      "value": "19.82",
+      "status": "OK"
+    },
+    {
+      "timestamp": "2026-02-20 10:16",
+      "sensor": "NODE-21",
+      "value": "20.73",
+      "status": "ATENCION"
+    },
+    {
+      "timestamp": "2026-02-20 10:23",
+      "sensor": "NODE-22",
+      "value": "21.64",
+      "status": "OK"
+    },
+    {
+      "timestamp": "2026-02-20 10:30",
+      "sensor": "NODE-23",
+      "value": "22.55",
+      "status": "OK"
+    },
+    {
+      "timestamp": "2026-02-20 10:37",
+      "sensor": "NODE-24",
+      "value": "23.46",
+      "status": "OK"
+    },
+    {
+      "timestamp": "2026-02-20 10:44",
+      "sensor": "NODE-25",
+      "value": "24.37",
+      "status": "OK"
+    },
+    {
+      "timestamp": "2026-02-20 10:51",
+      "sensor": "NODE-26",
+      "value": "25.28",
+      "status": "OK"
+    },
+    {
+      "timestamp": "2026-02-20 10:58",
+      "sensor": "NODE-27",
+      "value": "26.19",
+      "status": "OK"
+    },
+    {
+      "timestamp": "2026-02-20 11:05",
+      "sensor": "NODE-28",
+      "value": "27.10",
+      "status": "OK"
+    },
+    {
+      "timestamp": "2026-02-20 11:12",
+      "sensor": "NODE-29",
+      "value": "28.01",
+      "status": "ATENCION"
+    },
+    {
+      "timestamp": "2026-02-20 11:19",
+      "sensor": "NODE-30",
+      "value": "28.92",
+      "status": "OK"
+    },
+    {
+      "timestamp": "2026-02-20 11:26",
+      "sensor": "NODE-31",
+      "value": "29.83",
+      "status": "OK"
+    },
+    {
+      "timestamp": "2026-02-20 11:33",
+      "sensor": "NODE-32",
+      "value": "30.74",
+      "status": "OK"
+    },
+    {
+      "timestamp": "2026-02-20 11:40",
+      "sensor": "NODE-33",
+      "value": "31.65",
+      "status": "OK"
+    },
+    {
+      "timestamp": "2026-02-20 11:47",
+      "sensor": "NODE-34",
+      "value": "32.56",
+      "status": "OK"
+    },
+    {
+      "timestamp": "2026-02-20 11:54",
+      "sensor": "NODE-1",
+      "value": "18.00",
+      "status": "OK"
+    },
+    {
+      "timestamp": "2026-02-20 12:01",
+      "sensor": "NODE-2",
+      "value": "18.91",
+      "status": "OK"
+    },
+    {
+      "timestamp": "2026-02-20 12:08",
+      "sensor": "NODE-3",
+      "value": "19.82",
+      "status": "ATENCION"
+    },
+    {
+      "timestamp": "2026-02-20 12:15",
+      "sensor": "NODE-4",
+      "value": "20.73",
+      "status": "ALERTA"
+    },
+    {
+      "timestamp": "2026-02-20 12:22",
+      "sensor": "NODE-5",
+      "value": "21.64",
+      "status": "OK"
+    },
+    {
+      "timestamp": "2026-02-20 12:29",
+      "sensor": "NODE-6",
+      "value": "22.55",
+      "status": "OK"
+    },
+    {
+      "timestamp": "2026-02-20 12:36",
+      "sensor": "NODE-7",
+      "value": "23.46",
+      "status": "OK"
+    },
+    {
+      "timestamp": "2026-02-20 12:43",
+      "sensor": "NODE-8",
+      "value": "24.37",
+      "status": "OK"
+    },
+    {
+      "timestamp": "2026-02-20 12:50",
+      "sensor": "NODE-9",
+      "value": "25.28",
+      "status": "OK"
+    },
+    {
+      "timestamp": "2026-02-20 12:57",
+      "sensor": "NODE-10",
+      "value": "26.19",
+      "status": "OK"
+    },
+    {
+      "timestamp": "2026-02-20 13:04",
+      "sensor": "NODE-11",
+      "value": "27.10",
+      "status": "ATENCION"
+    },
+    {
+      "timestamp": "2026-02-20 13:11",
+      "sensor": "NODE-12",
+      "value": "28.01",
+      "status": "OK"
+    },
+    {
+      "timestamp": "2026-02-20 13:18",
+      "sensor": "NODE-13",
+      "value": "28.92",
+      "status": "OK"
+    },
+    {
+      "timestamp": "2026-02-20 13:25",
+      "sensor": "NODE-14",
+      "value": "29.83",
+      "status": "OK"
+    },
+    {
+      "timestamp": "2026-02-20 13:32",
+      "sensor": "NODE-15",
+      "value": "30.74",
+      "status": "OK"
+    },
+    {
+      "timestamp": "2026-02-20 13:39",
+      "sensor": "NODE-16",
+      "value": "31.65",
+      "status": "OK"
+    },
+    {
+      "timestamp": "2026-02-20 13:46",
+      "sensor": "NODE-17",
+      "value": "32.56",
+      "status": "OK"
+    },
+    {
+      "timestamp": "2026-02-20 13:53",
+      "sensor": "NODE-18",
+      "value": "18.00",
+      "status": "OK"
+    },
+    {
+      "timestamp": "2026-02-20 14:00",
+      "sensor": "NODE-19",
+      "value": "18.91",
+      "status": "ATENCION"
+    },
+    {
+      "timestamp": "2026-02-20 14:07",
+      "sensor": "NODE-20",
+      "value": "19.82",
+      "status": "OK"
+    },
+    {
+      "timestamp": "2026-02-20 14:14",
+      "sensor": "NODE-21",
+      "value": "20.73",
+      "status": "OK"
+    },
+    {
+      "timestamp": "2026-02-20 14:21",
+      "sensor": "NODE-22",
+      "value": "21.64",
+      "status": "OK"
+    },
+    {
+      "timestamp": "2026-02-20 14:28",
+      "sensor": "NODE-23",
+      "value": "22.55",
+      "status": "OK"
+    },
+    {
+      "timestamp": "2026-02-20 14:35",
+      "sensor": "NODE-24",
+      "value": "23.46",
+      "status": "OK"
+    },
+    {
+      "timestamp": "2026-02-20 14:42",
+      "sensor": "NODE-25",
+      "value": "24.37",
+      "status": "ALERTA"
+    },
+    {
+      "timestamp": "2026-02-20 14:49",
+      "sensor": "NODE-26",
+      "value": "25.28",
+      "status": "OK"
+    },
+    {
+      "timestamp": "2026-02-20 14:56",
+      "sensor": "NODE-27",
+      "value": "26.19",
+      "status": "ATENCION"
+    },
+    {
+      "timestamp": "2026-02-20 15:03",
+      "sensor": "NODE-28",
+      "value": "27.10",
+      "status": "OK"
+    },
+    {
+      "timestamp": "2026-02-20 15:10",
+      "sensor": "NODE-29",
+      "value": "28.01",
+      "status": "OK"
+    },
+    {
+      "timestamp": "2026-02-20 15:17",
+      "sensor": "NODE-30",
+      "value": "28.92",
+      "status": "OK"
+    },
+    {
+      "timestamp": "2026-02-20 15:24",
+      "sensor": "NODE-31",
+      "value": "29.83",
+      "status": "OK"
+    },
+    {
+      "timestamp": "2026-02-20 15:31",
+      "sensor": "NODE-32",
+      "value": "30.74",
+      "status": "OK"
+    },
+    {
+      "timestamp": "2026-02-20 15:38",
+      "sensor": "NODE-33",
+      "value": "31.65",
+      "status": "OK"
+    },
+    {
+      "timestamp": "2026-02-20 15:45",
+      "sensor": "NODE-34",
+      "value": "32.56",
+      "status": "OK"
+    },
+    {
+      "timestamp": "2026-02-20 15:52",
+      "sensor": "NODE-1",
+      "value": "18.00",
+      "status": "ATENCION"
+    },
+    {
+      "timestamp": "2026-02-20 15:59",
+      "sensor": "NODE-2",
+      "value": "18.91",
+      "status": "OK"
+    },
+    {
+      "timestamp": "2026-02-20 16:06",
+      "sensor": "NODE-3",
+      "value": "19.82",
+      "status": "OK"
+    },
+    {
+      "timestamp": "2026-02-20 16:13",
+      "sensor": "NODE-4",
+      "value": "20.73",
+      "status": "OK"
+    },
+    {
+      "timestamp": "2026-02-20 16:20",
+      "sensor": "NODE-5",
+      "value": "21.64",
+      "status": "OK"
+    },
+    {
+      "timestamp": "2026-02-20 16:27",
+      "sensor": "NODE-6",
+      "value": "22.55",
+      "status": "OK"
+    },
+    {
+      "timestamp": "2026-02-20 16:34",
+      "sensor": "NODE-7",
+      "value": "23.46",
+      "status": "OK"
+    },
+    {
+      "timestamp": "2026-02-20 16:41",
+      "sensor": "NODE-8",
+      "value": "24.37",
+      "status": "OK"
+    },
+    {
+      "timestamp": "2026-02-20 16:48",
+      "sensor": "NODE-9",
+      "value": "25.28",
+      "status": "ATENCION"
+    },
+    {
+      "timestamp": "2026-02-20 16:55",
+      "sensor": "NODE-10",
+      "value": "26.19",
+      "status": "OK"
+    },
+    {
+      "timestamp": "2026-02-20 17:02",
+      "sensor": "NODE-11",
+      "value": "27.10",
+      "status": "OK"
+    },
+    {
+      "timestamp": "2026-02-20 17:09",
+      "sensor": "NODE-12",
+      "value": "28.01",
+      "status": "ALERTA"
+    },
+    {
+      "timestamp": "2026-02-20 17:16",
+      "sensor": "NODE-13",
+      "value": "28.92",
+      "status": "OK"
+    },
+    {
+      "timestamp": "2026-02-20 17:23",
+      "sensor": "NODE-14",
+      "value": "29.83",
+      "status": "OK"
+    },
+    {
+      "timestamp": "2026-02-20 17:30",
+      "sensor": "NODE-15",
+      "value": "30.74",
+      "status": "OK"
+    },
+    {
+      "timestamp": "2026-02-20 17:37",
+      "sensor": "NODE-16",
+      "value": "31.65",
+      "status": "OK"
+    },
+    {
+      "timestamp": "2026-02-20 17:44",
+      "sensor": "NODE-17",
+      "value": "32.56",
+      "status": "ATENCION"
+    },
+    {
+      "timestamp": "2026-02-20 17:51",
+      "sensor": "NODE-18",
+      "value": "18.00",
+      "status": "OK"
+    },
+    {
+      "timestamp": "2026-02-20 17:58",
+      "sensor": "NODE-19",
+      "value": "18.91",
+      "status": "OK"
+    },
+    {
+      "timestamp": "2026-02-20 18:05",
+      "sensor": "NODE-20",
+      "value": "19.82",
+      "status": "OK"
+    },
+    {
+      "timestamp": "2026-02-20 18:12",
+      "sensor": "NODE-21",
+      "value": "20.73",
+      "status": "OK"
+    },
+    {
+      "timestamp": "2026-02-20 18:19",
+      "sensor": "NODE-22",
+      "value": "21.64",
+      "status": "OK"
+    },
+    {
+      "timestamp": "2026-02-20 18:26",
+      "sensor": "NODE-23",
+      "value": "22.55",
+      "status": "OK"
+    },
+    {
+      "timestamp": "2026-02-20 18:33",
+      "sensor": "NODE-24",
+      "value": "23.46",
+      "status": "OK"
+    },
+    {
+      "timestamp": "2026-02-20 18:40",
+      "sensor": "NODE-25",
+      "value": "24.37",
+      "status": "ATENCION"
+    },
+    {
+      "timestamp": "2026-02-20 18:47",
+      "sensor": "NODE-26",
+      "value": "25.28",
+      "status": "OK"
+    },
+    {
+      "timestamp": "2026-02-20 18:54",
+      "sensor": "NODE-27",
+      "value": "26.19",
+      "status": "OK"
+    },
+    {
+      "timestamp": "2026-02-20 19:01",
+      "sensor": "NODE-28",
+      "value": "27.10",
+      "status": "OK"
+    },
+    {
+      "timestamp": "2026-02-20 19:08",
+      "sensor": "NODE-29",
+      "value": "28.01",
+      "status": "OK"
+    },
+    {
+      "timestamp": "2026-02-20 19:15",
+      "sensor": "NODE-30",
+      "value": "28.92",
+      "status": "OK"
+    },
+    {
+      "timestamp": "2026-02-20 19:22",
+      "sensor": "NODE-31",
+      "value": "29.83",
+      "status": "OK"
+    },
+    {
+      "timestamp": "2026-02-20 19:29",
+      "sensor": "NODE-32",
+      "value": "30.74",
+      "status": "OK"
+    },
+    {
+      "timestamp": "2026-02-20 19:36",
+      "sensor": "NODE-33",
+      "value": "31.65",
+      "status": "ALERTA"
+    },
+    {
+      "timestamp": "2026-02-20 19:43",
+      "sensor": "NODE-34",
+      "value": "32.56",
+      "status": "OK"
+    },
+    {
+      "timestamp": "2026-02-20 19:50",
+      "sensor": "NODE-1",
+      "value": "18.00",
+      "status": "OK"
+    },
+    {
+      "timestamp": "2026-02-20 19:57",
+      "sensor": "NODE-2",
+      "value": "18.91",
+      "status": "OK"
+    },
+    {
+      "timestamp": "2026-02-20 20:04",
+      "sensor": "NODE-3",
+      "value": "19.82",
+      "status": "OK"
+    },
+    {
+      "timestamp": "2026-02-20 20:11",
+      "sensor": "NODE-4",
+      "value": "20.73",
+      "status": "OK"
+    },
+    {
+      "timestamp": "2026-02-20 20:18",
+      "sensor": "NODE-5",
+      "value": "21.64",
+      "status": "OK"
+    },
+    {
+      "timestamp": "2026-02-20 20:25",
+      "sensor": "NODE-6",
+      "value": "22.55",
+      "status": "OK"
+    },
+    {
+      "timestamp": "2026-02-20 20:32",
+      "sensor": "NODE-7",
+      "value": "23.46",
+      "status": "ATENCION"
+    },
+    {
+      "timestamp": "2026-02-20 20:39",
+      "sensor": "NODE-8",
+      "value": "24.37",
+      "status": "OK"
+    },
+    {
+      "timestamp": "2026-02-20 20:46",
+      "sensor": "NODE-9",
+      "value": "25.28",
+      "status": "OK"
+    },
+    {
+      "timestamp": "2026-02-20 20:53",
+      "sensor": "NODE-10",
+      "value": "26.19",
+      "status": "OK"
+    },
+    {
+      "timestamp": "2026-02-20 21:00",
+      "sensor": "NODE-11",
+      "value": "27.10",
+      "status": "OK"
+    },
+    {
+      "timestamp": "2026-02-20 21:07",
+      "sensor": "NODE-12",
+      "value": "28.01",
+      "status": "OK"
+    },
+    {
+      "timestamp": "2026-02-20 21:14",
+      "sensor": "NODE-13",
+      "value": "28.92",
+      "status": "OK"
+    },
+    {
+      "timestamp": "2026-02-20 21:21",
+      "sensor": "NODE-14",
+      "value": "29.83",
+      "status": "OK"
+    },
+    {
+      "timestamp": "2026-02-20 21:28",
+      "sensor": "NODE-15",
+      "value": "30.74",
+      "status": "ATENCION"
+    },
+    {
+      "timestamp": "2026-02-20 21:35",
+      "sensor": "NODE-16",
+      "value": "31.65",
+      "status": "OK"
+    },
+    {
+      "timestamp": "2026-02-20 21:42",
+      "sensor": "NODE-17",
+      "value": "32.56",
+      "status": "OK"
+    },
+    {
+      "timestamp": "2026-02-20 21:49",
+      "sensor": "NODE-18",
+      "value": "18.00",
+      "status": "OK"
+    },
+    {
+      "timestamp": "2026-02-20 21:56",
+      "sensor": "NODE-19",
+      "value": "18.91",
+      "status": "OK"
+    },
+    {
+      "timestamp": "2026-02-20 22:03",
+      "sensor": "NODE-20",
+      "value": "19.82",
+      "status": "ALERTA"
+    },
+    {
+      "timestamp": "2026-02-20 22:10",
+      "sensor": "NODE-21",
+      "value": "20.73",
+      "status": "OK"
+    },
+    {
+      "timestamp": "2026-02-20 22:17",
+      "sensor": "NODE-22",
+      "value": "21.64",
+      "status": "OK"
+    },
+    {
+      "timestamp": "2026-02-20 22:24",
+      "sensor": "NODE-23",
+      "value": "22.55",
+      "status": "ATENCION"
+    },
+    {
+      "timestamp": "2026-02-20 22:31",
+      "sensor": "NODE-24",
+      "value": "23.46",
+      "status": "OK"
+    },
+    {
+      "timestamp": "2026-02-20 22:38",
+      "sensor": "NODE-25",
+      "value": "24.37",
+      "status": "OK"
+    },
+    {
+      "timestamp": "2026-02-20 22:45",
+      "sensor": "NODE-26",
+      "value": "25.28",
+      "status": "OK"
+    },
+    {
+      "timestamp": "2026-02-20 22:52",
+      "sensor": "NODE-27",
+      "value": "26.19",
+      "status": "OK"
+    },
+    {
+      "timestamp": "2026-02-20 22:59",
+      "sensor": "NODE-28",
+      "value": "27.10",
+      "status": "OK"
+    },
+    {
+      "timestamp": "2026-02-20 23:06",
+      "sensor": "NODE-29",
+      "value": "28.01",
+      "status": "OK"
+    },
+    {
+      "timestamp": "2026-02-20 23:13",
+      "sensor": "NODE-30",
+      "value": "28.92",
+      "status": "OK"
+    },
+    {
+      "timestamp": "2026-02-20 23:20",
+      "sensor": "NODE-31",
+      "value": "29.83",
+      "status": "ATENCION"
+    },
+    {
+      "timestamp": "2026-02-20 23:27",
+      "sensor": "NODE-32",
+      "value": "30.74",
+      "status": "OK"
+    },
+    {
+      "timestamp": "2026-02-20 23:34",
+      "sensor": "NODE-33",
+      "value": "31.65",
+      "status": "OK"
+    },
+    {
+      "timestamp": "2026-02-20 23:41",
+      "sensor": "NODE-34",
+      "value": "32.56",
+      "status": "OK"
+    },
+    {
+      "timestamp": "2026-02-20 23:48",
+      "sensor": "NODE-1",
+      "value": "18.00",
+      "status": "OK"
+    },
+    {
+      "timestamp": "2026-02-20 23:55",
+      "sensor": "NODE-2",
+      "value": "18.91",
+      "status": "OK"
+    },
+    {
+      "timestamp": "2026-02-21 00:02",
+      "sensor": "NODE-3",
+      "value": "19.82",
+      "status": "OK"
+    },
+    {
+      "timestamp": "2026-02-21 00:09",
+      "sensor": "NODE-4",
+      "value": "20.73",
+      "status": "OK"
+    },
+    {
+      "timestamp": "2026-02-21 00:16",
+      "sensor": "NODE-5",
+      "value": "21.64",
+      "status": "ATENCION"
+    },
+    {
+      "timestamp": "2026-02-21 00:23",
+      "sensor": "NODE-6",
+      "value": "22.55",
+      "status": "OK"
+    },
+    {
+      "timestamp": "2026-02-21 00:30",
+      "sensor": "NODE-7",
+      "value": "23.46",
+      "status": "ALERTA"
+    },
+    {
+      "timestamp": "2026-02-21 00:37",
+      "sensor": "NODE-8",
+      "value": "24.37",
+      "status": "OK"
+    },
+    {
+      "timestamp": "2026-02-21 00:44",
+      "sensor": "NODE-9",
+      "value": "25.28",
+      "status": "OK"
+    },
+    {
+      "timestamp": "2026-02-21 00:51",
+      "sensor": "NODE-10",
+      "value": "26.19",
+      "status": "OK"
+    },
+    {
+      "timestamp": "2026-02-21 00:58",
+      "sensor": "NODE-11",
+      "value": "27.10",
+      "status": "OK"
+    },
+    {
+      "timestamp": "2026-02-21 01:05",
+      "sensor": "NODE-12",
+      "value": "28.01",
+      "status": "OK"
+    },
+    {
+      "timestamp": "2026-02-21 01:12",
+      "sensor": "NODE-13",
+      "value": "28.92",
+      "status": "ATENCION"
+    },
+    {
+      "timestamp": "2026-02-21 01:19",
+      "sensor": "NODE-14",
+      "value": "29.83",
+      "status": "OK"
+    },
+    {
+      "timestamp": "2026-02-21 01:26",
+      "sensor": "NODE-15",
+      "value": "30.74",
+      "status": "OK"
+    },
+    {
+      "timestamp": "2026-02-21 01:33",
+      "sensor": "NODE-16",
+      "value": "31.65",
+      "status": "OK"
+    },
+    {
+      "timestamp": "2026-02-21 01:40",
+      "sensor": "NODE-17",
+      "value": "32.56",
+      "status": "OK"
+    },
+    {
+      "timestamp": "2026-02-21 01:47",
+      "sensor": "NODE-18",
+      "value": "18.00",
+      "status": "OK"
+    },
+    {
+      "timestamp": "2026-02-21 01:54",
+      "sensor": "NODE-19",
+      "value": "18.91",
+      "status": "OK"
+    },
+    {
+      "timestamp": "2026-02-21 02:01",
+      "sensor": "NODE-20",
+      "value": "19.82",
+      "status": "OK"
+    },
+    {
+      "timestamp": "2026-02-21 02:08",
+      "sensor": "NODE-21",
+      "value": "20.73",
+      "status": "ATENCION"
+    },
+    {
+      "timestamp": "2026-02-21 02:15",
+      "sensor": "NODE-22",
+      "value": "21.64",
+      "status": "OK"
+    },
+    {
+      "timestamp": "2026-02-21 02:22",
+      "sensor": "NODE-23",
+      "value": "22.55",
+      "status": "OK"
+    },
+    {
+      "timestamp": "2026-02-21 02:29",
+      "sensor": "NODE-24",
+      "value": "23.46",
+      "status": "OK"
+    },
+    {
+      "timestamp": "2026-02-21 02:36",
+      "sensor": "NODE-25",
+      "value": "24.37",
+      "status": "OK"
+    },
+    {
+      "timestamp": "2026-02-21 02:43",
+      "sensor": "NODE-26",
+      "value": "25.28",
+      "status": "OK"
+    },
+    {
+      "timestamp": "2026-02-21 02:50",
+      "sensor": "NODE-27",
+      "value": "26.19",
+      "status": "OK"
+    },
+    {
+      "timestamp": "2026-02-21 02:57",
+      "sensor": "NODE-28",
+      "value": "27.10",
+      "status": "ALERTA"
+    },
+    {
+      "timestamp": "2026-02-21 03:04",
+      "sensor": "NODE-29",
+      "value": "28.01",
+      "status": "ATENCION"
+    },
+    {
+      "timestamp": "2026-02-21 03:11",
+      "sensor": "NODE-30",
+      "value": "28.92",
+      "status": "OK"
+    },
+    {
+      "timestamp": "2026-02-21 03:18",
+      "sensor": "NODE-31",
+      "value": "29.83",
+      "status": "OK"
+    },
+    {
+      "timestamp": "2026-02-21 03:25",
+      "sensor": "NODE-32",
+      "value": "30.74",
+      "status": "OK"
+    },
+    {
+      "timestamp": "2026-02-21 03:32",
+      "sensor": "NODE-33",
+      "value": "31.65",
+      "status": "OK"
+    },
+    {
+      "timestamp": "2026-02-21 03:39",
+      "sensor": "NODE-34",
+      "value": "32.56",
+      "status": "OK"
+    },
+    {
+      "timestamp": "2026-02-21 03:46",
+      "sensor": "NODE-1",
+      "value": "18.00",
+      "status": "OK"
+    },
+    {
+      "timestamp": "2026-02-21 03:53",
+      "sensor": "NODE-2",
+      "value": "18.91",
+      "status": "OK"
+    },
+    {
+      "timestamp": "2026-02-21 04:00",
+      "sensor": "NODE-3",
+      "value": "19.82",
+      "status": "ATENCION"
+    }
+  ],
+  "observations": "El sistema IoT mantuvo estabilidad operativa en la mayor parte del periodo; se detectaron picos de variacion en nodos perifericos durante ventanas de arranque y limpieza CIP. El sistema IoT mantuvo estabilidad operativa en la mayor parte del periodo; se detectaron picos de variacion en nodos perifericos durante ventanas de arranque y limpieza CIP. El sistema IoT mantuvo estabilidad operativa en la mayor parte del periodo; se detectaron picos de variacion en nodos perifericos durante ventanas de arranque y limpieza CIP. El sistema IoT mantuvo estabilidad operativa en la mayor parte del periodo; se detectaron picos de variacion en nodos perifericos durante ventanas de arranque y limpieza CIP. El sistema IoT mantuvo estabilidad operativa en la mayor parte del periodo; se detectaron picos de variacion en nodos perifericos durante ventanas de arranque y limpieza CIP. El sistema IoT mantuvo estabilidad operativa en la mayor parte del periodo; se detectaron picos de variacion en nodos perifericos durante ventanas de arranque y limpieza CIP. El sistema IoT mantuvo estabilidad operativa en la mayor parte del periodo; se detectaron picos de variacion en nodos perifericos durante ventanas de arranque y limpieza CIP. El sistema IoT mantuvo estabilidad operativa en la mayor parte del periodo; se detectaron picos de variacion en nodos perifericos durante ventanas de arranque y limpieza CIP. El sistema IoT mantuvo estabilidad operativa en la mayor parte del periodo; se detectaron picos de variacion en nodos perifericos durante ventanas de arranque y limpieza CIP. El sistema IoT mantuvo estabilidad operativa en la mayor parte del periodo; se detectaron picos de variacion en nodos perifericos durante ventanas de arranque y limpieza CIP. El sistema IoT mantuvo estabilidad operativa en la mayor parte del periodo; se detectaron picos de variacion en nodos perifericos durante ventanas de arranque y limpieza CIP. El sistema IoT mantuvo estabilidad operativa en la mayor parte del periodo; se detectaron picos de variacion en nodos perifericos durante ventanas de arranque y limpieza CIP. El sistema IoT mantuvo estabilidad operativa en la mayor parte del periodo; se detectaron picos de variacion en nodos perifericos durante ventanas de arranque y limpieza CIP. El sistema IoT mantuvo estabilidad operativa en la mayor parte del periodo; se detectaron picos de variacion en nodos perifericos durante ventanas de arranque y limpieza CIP. El sistema IoT mantuvo estabilidad operativa en la mayor parte del periodo; se detectaron picos de variacion en nodos perifericos durante ventanas de arranque y limpieza CIP. El sistema IoT mantuvo estabilidad operativa en la mayor parte del periodo; se detectaron picos de variacion en nodos perifericos durante ventanas de arranque y limpieza CIP. El sistema IoT mantuvo estabilidad operativa en la mayor parte del periodo; se detectaron picos de variacion en nodos perifericos durante ventanas de arranque y limpieza CIP. El sistema IoT mantuvo estabilidad operativa en la mayor parte del periodo; se detectaron picos de variacion en nodos perifericos durante ventanas de arranque y limpieza CIP. El sistema IoT mantuvo estabilidad operativa en la mayor parte del periodo; se detectaron picos de variacion en nodos perifericos durante ventanas de arranque y limpieza CIP. El sistema IoT mantuvo estabilidad operativa en la mayor parte del periodo; se detectaron picos de variacion en nodos perifericos durante ventanas de arranque y limpieza CIP. El sistema IoT mantuvo estabilidad operativa en la mayor parte del periodo; se detectaron picos de variacion en nodos perifericos durante ventanas de arranque y limpieza CIP. El sistema IoT mantuvo estabilidad operativa en la mayor parte del periodo; se detectaron picos de variacion en nodos perifericos durante ventanas de arranque y limpieza CIP. El sistema IoT mantuvo estabilidad operativa en la mayor parte del periodo; se detectaron picos de variacion en nodos perifericos durante ventanas de arranque y limpieza CIP. El sistema IoT mantuvo estabilidad operativa en la mayor parte del periodo; se detectaron picos de variacion en nodos perifericos durante ventanas de arranque y limpieza CIP. El sistema IoT mantuvo estabilidad operativa en la mayor parte del periodo; se detectaron picos de variacion en nodos perifericos durante ventanas de arranque y limpieza CIP. El sistema IoT mantuvo estabilidad operativa en la mayor parte del periodo; se detectaron picos de variacion en nodos perifericos durante ventanas de arranque y limpieza CIP. El sistema IoT mantuvo estabilidad operativa en la mayor parte del periodo; se detectaron picos de variacion en nodos perifericos durante ventanas de arranque y limpieza CIP. El sistema IoT mantuvo estabilidad operativa en la mayor parte del periodo; se detectaron picos de variacion en nodos perifericos durante ventanas de arranque y limpieza CIP. El sistema IoT mantuvo estabilidad operativa en la mayor parte del periodo; se detectaron picos de variacion en nodos perifericos durante ventanas de arranque y limpieza CIP. El sistema IoT mantuvo estabilidad operativa en la mayor parte del periodo; se detectaron picos de variacion en nodos perifericos durante ventanas de arranque y limpieza CIP. El sistema IoT mantuvo estabilidad operativa en la mayor parte del periodo; se detectaron picos de variacion en nodos perifericos durante ventanas de arranque y limpieza CIP. El sistema IoT mantuvo estabilidad operativa en la mayor parte del periodo; se detectaron picos de variacion en nodos perifericos durante ventanas de arranque y limpieza CIP. El sistema IoT mantuvo estabilidad operativa en la mayor parte del periodo; se detectaron picos de variacion en nodos perifericos durante ventanas de arranque y limpieza CIP. El sistema IoT mantuvo estabilidad operativa en la mayor parte del periodo; se detectaron picos de variacion en nodos perifericos durante ventanas de arranque y limpieza CIP. El sistema IoT mantuvo estabilidad operativa en la mayor parte del periodo; se detectaron picos de variacion en nodos perifericos durante ventanas de arranque y limpieza CIP. El sistema IoT mantuvo estabilidad operativa en la mayor parte del periodo; se detectaron picos de variacion en nodos perifericos durante ventanas de arranque y limpieza CIP. El sistema IoT mantuvo estabilidad operativa en la mayor parte del periodo; se detectaron picos de variacion en nodos perifericos durante ventanas de arranque y limpieza CIP. El sistema IoT mantuvo estabilidad operativa en la mayor parte del periodo; se detectaron picos de variacion en nodos perifericos durante ventanas de arranque y limpieza CIP. El sistema IoT mantuvo estabilidad operativa en la mayor parte del periodo; se detectaron picos de variacion en nodos perifericos durante ventanas de arranque y limpieza CIP. El sistema IoT mantuvo estabilidad operativa en la mayor parte del periodo; se detectaron picos de variacion en nodos perifericos durante ventanas de arranque y limpieza CIP. El sistema IoT mantuvo estabilidad operativa en la mayor parte del periodo; se detectaron picos de variacion en nodos perifericos durante ventanas de arranque y limpieza CIP. El sistema IoT mantuvo estabilidad operativa en la mayor parte del periodo; se detectaron picos de variacion en nodos perifericos durante ventanas de arranque y limpieza CIP."
+}

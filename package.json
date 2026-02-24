@@ -1,0 +1,47 @@
+{
+  "name": "reportflow-monorepo",
+  "version": "0.1.0",
+  "license": "MIT",
+  "author": "Luis Ángel Velázquez Palomino",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=22"
+  },
+  "packageManager": "pnpm@10.9.0",
+  "scripts": {
+    "build": "pnpm -r --filter ./packages/* build",
+    "lint": "eslint . --ext .ts,.tsx && prettier --check .",
+    "format": "prettier --write .",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "render:maintenance": "node ./packages/cli/dist/index.js render --template ./examples/report.tsx --data ./examples/data/maintenance.json --out ./out/maintenance.pdf",
+    "render:iot": "node ./packages/cli/dist/index.js render --template ./examples/iot-report.tsx --data ./examples/data/iot.json --out ./out/iot.pdf",
+    "render:executive": "node ./packages/cli/dist/index.js render --template ./examples/executive-iot-report.tsx --data ./examples/data/executive-iot.json --out ./out/executive-iot.pdf",
+    "render:executive-performance:teal": "node ./packages/cli/dist/index.js render --template ./examples/executive-performance-report.tsx --data ./examples/data/executive-performance-teal.json --out ./out/executive-performance-teal.pdf",
+    "render:executive-performance:blue": "node ./packages/cli/dist/index.js render --template ./examples/executive-performance-report.tsx --data ./examples/data/executive-performance-blue.json --out ./out/executive-performance-blue.pdf",
+    "render:executive-performance:green": "node ./packages/cli/dist/index.js render --template ./examples/executive-performance-report.tsx --data ./examples/data/executive-performance-green.json --out ./out/executive-performance-green.pdf",
+    "render:executive-performance:purple": "node ./packages/cli/dist/index.js render --template ./examples/executive-performance-report.tsx --data ./examples/data/executive-performance-purple.json --out ./out/executive-performance-purple.pdf",
+    "render:executive-performance:all": "pnpm render:executive-performance:teal && pnpm render:executive-performance:blue && pnpm render:executive-performance:green && pnpm render:executive-performance:purple",
+    "render:operations:blue": "node ./packages/cli/dist/index.js render --template ./examples/operations-trends-report.tsx --data ./examples/data/operations-trends-blue.json --out ./out/operations-trends-blue.pdf",
+    "render:operations:teal": "node ./packages/cli/dist/index.js render --template ./examples/operations-trends-report.tsx --data ./examples/data/operations-trends-teal.json --out ./out/operations-trends-teal.pdf",
+    "render:operations:all": "pnpm render:operations:blue && pnpm render:operations:teal",
+    "publish:core": "pnpm --filter @reportflow/core publish --access public --no-git-checks",
+    "publish:cli": "pnpm --filter @reportflow/cli publish --access public --no-git-checks",
+    "publish:all": "pnpm publish:core && pnpm publish:cli"
+  },
+  "dependencies": {
+    "@reportflow/core": "workspace:*"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.20.0",
+    "@types/node": "^22.13.10",
+    "@typescript-eslint/eslint-plugin": "^8.24.0",
+    "@typescript-eslint/parser": "^8.24.0",
+    "eslint": "^9.20.1",
+    "globals": "^16.0.0",
+    "prettier": "^3.5.3",
+    "typescript": "^5.8.2",
+    "vitest": "^3.0.8"
+  }
+}
