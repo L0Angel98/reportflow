@@ -1,23 +1,65 @@
-# @reportflow/cli
+# @angel-vlqz/reportflow-cli
 
-CLI to render ReportFlow templates into PDF files.
+CLI for generating ReportFlow PDFs from template + JSON data.
 
 ## Install
 
+Requirements:
+
+- Node.js `>=22`
+- ESM project
+
+Install locally:
+
 ```bash
-pnpm add -D @reportflow/cli
+pnpm add -D @angel-vlqz/reportflow-cli
 ```
 
-## Usage
+Or run without installing:
 
 ```bash
-reportflow render --template ./examples/report.tsx --data ./examples/data/maintenance.json --out ./out/report.pdf
-reportflow dev --template ./examples/report.tsx --data ./examples/data/maintenance.json --out ./out/report.pdf
+pnpm dlx @angel-vlqz/reportflow-cli --help
 ```
 
 ## Commands
 
-- `render`: one-shot PDF generation
-- `dev`: watch mode for template/data changes
+### `render`
 
-License: MIT
+One-shot PDF generation.
+
+```bash
+reportflow render \
+  --template ./examples/report.tsx \
+  --data ./examples/data/maintenance.json \
+  --out ./out/report.pdf
+```
+
+### `dev`
+
+Watch mode for template/data files.
+
+```bash
+reportflow dev \
+  --template ./examples/report.tsx \
+  --data ./examples/data/maintenance.json \
+  --out ./out/report.pdf
+```
+
+## Template Contract
+
+Template file must export a default document factory, normally built with:
+
+- `createDocument((data) => RFNode, schema?)` from `@angel-vlqz/reportflow-core`
+
+The `--data` JSON is parsed and validated by the optional schema.
+
+## Typical Workflow
+
+1. Build template in TypeScript (`.tsx`).
+2. Store report data as JSON.
+3. Run `reportflow render` in CI/CD or local scripts.
+4. Publish generated PDF artifact.
+
+## License
+
+MIT

@@ -76,13 +76,13 @@ pnpm render:operations:all
 
 ## Packages
 
-- `@reportflow/core`: engine + components + render API
-- `@reportflow/cli`: CLI (`reportflow render`, `reportflow dev`)
+- `@angel-vlqz/reportflow-core`: engine + components + render API
+- `@angel-vlqz/reportflow-cli`: CLI (`reportflow render`, `reportflow dev`)
 
 ## Public API
 
 ```ts
-import { renderToPdf, createDocument } from "@reportflow/core";
+import { renderToPdf, createDocument } from "@angel-vlqz/reportflow-core";
 ```
 
 - `renderToPdf(element: RFNode, options?): Promise<Uint8Array>`

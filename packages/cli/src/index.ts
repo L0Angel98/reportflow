@@ -4,7 +4,7 @@ import { watch } from "node:fs";
 import path from "node:path";
 import process from "node:process";
 import { pathToFileURL } from "node:url";
-import { renderToPdf, type RFNode } from "@reportflow/core";
+import { renderToPdf, type RFNode } from "@angel-vlqz/reportflow-core";
 
 type ArgMap = Record<string, string | boolean>;
 

@@ -1,6 +1,6 @@
 {
-  "name": "@reportflow/cli",
-  "version": "0.1.0",
+  "name": "@angel-vlqz/reportflow-cli",
+  "version": "0.1.2",
   "description": "CLI for rendering enterprise PDF reports from declarative ReportFlow templates.",
   "keywords": [
     "pdf",
@@ -36,7 +36,7 @@
     "test": "vitest run --passWithNoTests"
   },
   "dependencies": {
-    "@reportflow/core": "workspace:*",
+    "@angel-vlqz/reportflow-core": "^0.1.2",
     "tsx": "^4.19.3"
   }
 }

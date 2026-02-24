@@ -1,6 +1,6 @@
 {
   "name": "reportflow-monorepo",
-  "version": "0.1.0",
+  "version": "0.1.2",
   "license": "MIT",
   "author": "Luis Ángel Velázquez Palomino",
   "private": true,
@@ -26,12 +26,16 @@
     "render:operations:blue": "node ./packages/cli/dist/index.js render --template ./examples/operations-trends-report.tsx --data ./examples/data/operations-trends-blue.json --out ./out/operations-trends-blue.pdf",
     "render:operations:teal": "node ./packages/cli/dist/index.js render --template ./examples/operations-trends-report.tsx --data ./examples/data/operations-trends-teal.json --out ./out/operations-trends-teal.pdf",
     "render:operations:all": "pnpm render:operations:blue && pnpm render:operations:teal",
-    "publish:core": "pnpm --filter @reportflow/core publish --access public --no-git-checks",
-    "publish:cli": "pnpm --filter @reportflow/cli publish --access public --no-git-checks",
+    "version:set": "node ./scripts/set-version.mjs",
+    "version:patch": "node ./scripts/set-version.mjs patch",
+    "version:minor": "node ./scripts/set-version.mjs minor",
+    "version:major": "node ./scripts/set-version.mjs major",
+    "publish:core": "pnpm --filter @angel-vlqz/reportflow-core publish --access public --no-git-checks",
+    "publish:cli": "pnpm --filter @angel-vlqz/reportflow-cli publish --access public --no-git-checks",
     "publish:all": "pnpm publish:core && pnpm publish:cli"
   },
   "dependencies": {
-    "@reportflow/core": "workspace:*"
+    "@angel-vlqz/reportflow-core": "workspace:*"
   },
   "devDependencies": {
     "@eslint/js": "^9.20.0",

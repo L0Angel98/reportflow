@@ -9,6 +9,15 @@ export default [
   },
   js.configs.recommended,
   {
+    files: ["**/*.js", "**/*.mjs"],
+    languageOptions: {
+      sourceType: "module",
+      globals: {
+        ...globals.node
+      }
+    }
+  },
+  {
     files: ["**/*.ts", "**/*.tsx"],
     languageOptions: {
       parser: tsParser,

@@ -1,6 +1,6 @@
 {
-  "name": "@reportflow/core",
-  "version": "0.1.0",
+  "name": "@angel-vlqz/reportflow-core",
+  "version": "0.1.2",
   "description": "Declarative TypeScript PDF layout engine for enterprise reporting (pagination, tables, charts, theming).",
   "keywords": [
     "pdf",
