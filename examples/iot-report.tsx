@@ -19,7 +19,7 @@ interface Metric {
   value: string;
 }
 
-interface IoTRow {
+interface IoTRow extends Record<string, unknown> {
   timestamp: string;
   sensor: string;
   value: string;
